@@ -38,7 +38,7 @@
 		F162D7B2299431240046E456 /* TaskData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskData.swift; sourceTree = "<group>"; };
 		F1BFDD08298C46FE00F10384 /* trackpro3153.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = trackpro3153.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1BFDD0B298C46FE00F10384 /* trackpro3153App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trackpro3153App.swift; sourceTree = "<group>"; };
-		F1BFDD0D298C46FE00F10384 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F1BFDD0D298C46FE00F10384 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; usesTabs = 0; };
 		F1BFDD0F298C470000F10384 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F1BFDD12298C470000F10384 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F1BFDD18298C470000F10384 /* trackpro3153Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = trackpro3153Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
