@@ -18,6 +18,14 @@ struct ContentView: View {
             TextField("Enter a new task", text: self.$newTask)
         }
     }
+    func deleteTask(at offsets: IndexSet){
+        taskCollection.tasks.remove(atOffsets: offsets)
+    }
+    
+    func moveTask(from source: IndexSet, to destination: Int) {
+        taskCollection.tasks.move(fromOffsets: source, toOffset: destination)
+    }
+    
     func addTask() {
         #warning("Adding a task only appends the taskTitle. Need to implement taskDetails in Task")
         taskCollection.tasks.append(
@@ -34,9 +42,15 @@ struct ContentView: View {
         NavigationView{
             VStack {
                 VStack {
-                    List(self.taskCollection.tasks) { task in
-                        Text(task.taskTitle)
+                    List {
+                        ForEach(self.taskCollection.tasks) {
+                            task in
+                            Text(task.taskTitle)
+                        }.onMove(perform: self.moveTask)
+                            .onDelete(perform: self.deleteTask)
+                        
                     }.navigationTitle("Tasks for \(currentDate)")
+                    .navigationBarItems(trailing: EditButton())
                 }
                 //Aligns buttons and task entry to bottom of screen
                 Spacer()
@@ -86,9 +100,10 @@ struct ContentView: View {
                 .clipShape(Circle())
                 }
             }
+
         }
     }
-    
+        
     struct ContentView_Previews: PreviewProvider {
         static var previews: some View {
             ContentView()
