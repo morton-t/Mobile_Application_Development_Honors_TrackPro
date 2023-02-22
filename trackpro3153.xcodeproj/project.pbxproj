@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F1044AD529A69A9000220D61 /* TaskProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1044AD429A69A9000220D61 /* TaskProperties.swift */; };
 		F162D7B3299431250046E456 /* TaskData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F162D7B2299431240046E456 /* TaskData.swift */; };
 		F1BFDD0C298C46FE00F10384 /* trackpro3153App.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BFDD0B298C46FE00F10384 /* trackpro3153App.swift */; };
 		F1BFDD0E298C46FE00F10384 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BFDD0D298C46FE00F10384 /* ContentView.swift */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F1044AD429A69A9000220D61 /* TaskProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskProperties.swift; sourceTree = "<group>"; };
 		F162D7B2299431240046E456 /* TaskData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskData.swift; sourceTree = "<group>"; };
 		F1BFDD08298C46FE00F10384 /* trackpro3153.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = trackpro3153.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1BFDD0B298C46FE00F10384 /* trackpro3153App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trackpro3153App.swift; sourceTree = "<group>"; };
@@ -96,6 +98,7 @@
 		F1BFDD0A298C46FE00F10384 /* trackpro3153 */ = {
 			isa = PBXGroup;
 			children = (
+				F1044AD429A69A9000220D61 /* TaskProperties.swift */,
 				F1BFDD0B298C46FE00F10384 /* trackpro3153App.swift */,
 				F1BFDD0D298C46FE00F10384 /* ContentView.swift */,
 				F162D7B2299431240046E456 /* TaskData.swift */,
@@ -263,6 +266,7 @@
 				F1BFDD0E298C46FE00F10384 /* ContentView.swift in Sources */,
 				F1BFDD0C298C46FE00F10384 /* trackpro3153App.swift in Sources */,
 				F162D7B3299431250046E456 /* TaskData.swift in Sources */,
+				F1044AD529A69A9000220D61 /* TaskProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
